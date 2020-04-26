@@ -135,6 +135,15 @@ const vector<float> & Seno::synthesize() {
 - Explique qué método se ha seguido para asignar un valor a la señal a partir de los contenidos en la tabla,
   e incluya una gráfica en la que se vean claramente (use pelotitas en lugar de líneas) los valores de la
   tabla y los de la señal generada.
+  
+  Para asignar un valor a partir de los contenido en la tabla buscamos la frecuencia fundamental a partir de la siguiente formula:
+  
+  fc=440*pow(2,(N-69)/12)
+  
+  De este modo para cada nota asignamos la frecuencia que le corresponde para poder obtener el pitch correcto de cada nota. Es decir vamos avanzando en la tabla de la siguuiente manera: tblinc=tbl.size()/(SamplingRate/fc)
+  
+  <img src="seno.PNG" width="340" align="center">
+  
 - Si ha implementado la síntesis por tabla almacenada en fichero externo, incluya a continuación el código
   del método `command()`.
 
@@ -147,11 +156,11 @@ const vector<float> & Seno::synthesize() {
   
   Efecto Tremolo
   
-  <img src="tremolo.PNG" width="440" align="center">
+  <img src="vibrato.PNG" width="440" align="center">
   
   Efecto Vibrato
   
-  <img src="vibrato.PNG" width="340" align="center">
+  <img src="tremolo.PNG" width="340" align="center">
   
 - Si ha generado algún efecto por su cuenta, explique en qué consiste, cómo lo ha implementado y qué
   resultado ha producido. Incluya, en el directorio `work/ejemplos`, los ficheros necesarios para apreciar
