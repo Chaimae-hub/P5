@@ -156,7 +156,7 @@ const vector<float> & Seno::synthesize() {
   
   Efecto Tremolo
   
-  <img src="vibrato.PNG" width="440" align="center">
+  <img src="vibrato.PNG" width="340" align="center">
   
   Efecto Vibrato
   
