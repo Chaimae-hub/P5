@@ -1,0 +1,49 @@
+Build started at 2020-04-26T15:25:26.557295
+Main binary: /Library/Developer/CommandLineTools/usr/bin/python3
+Build Options: -Dprefix=/Users/nira/PAV -Dlibdir=lib -Dbuildtype=release -Dbackend=ninja
+Python system: Darwin
+The Meson build system
+Version: 0.53.2
+Source dir: /Users/nira/Desktop/PAV/P5-Fathallah-Tubert
+Build dir: /Users/nira/Desktop/PAV/P5-Fathallah-Tubert/build/release
+Build type: native build
+Project name: Práctica 5 de PAV - Síntesis musical polifónica
+Project version: v2.0
+C++ compiler for the build machine: c++ (clang 11.0.3 "Apple clang version 11.0.3 (clang-1103.0.32.29)")
+C++ linker for the build machine: c++ ld64 556.5
+C++ compiler for the host machine: c++ (clang 11.0.3 "Apple clang version 11.0.3 (clang-1103.0.32.29)")
+C++ linker for the host machine: c++ ld64 556.5
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program doxygen found: YES (/usr/local/bin/doxygen)
+Configuring Doxyfile using configuration
+Build targets in project: 5
+
+Found ninja-1.10.0 at /usr/local/bin/ninja
+Running compile:
+Working directory:  /var/folders/pm/9nks5bf15zz2_gp0_2jprhgh0000gn/T/tmp5v65jr5s
+Command line:  c++ /var/folders/pm/9nks5bf15zz2_gp0_2jprhgh0000gn/T/tmp5v65jr5s/testfile.cpp -o /var/folders/pm/9nks5bf15zz2_gp0_2jprhgh0000gn/T/tmp5v65jr5s/output.obj -pipe -c -std=c++11 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++11: YES
+Running compile:
+Working directory:  /Users/nira/Desktop/PAV/P5-Fathallah-Tubert/build/release/meson-private/tmp47j5dcgz
+Command line:  c++ /Users/nira/Desktop/PAV/P5-Fathallah-Tubert/build/release/meson-private/tmp47j5dcgz/testfile.cpp -o /Users/nira/Desktop/PAV/P5-Fathallah-Tubert/build/release/meson-private/tmp47j5dcgz/output.obj -pipe -c -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ programs: =/Library/Developer/CommandLineTools/usr/bin
+libraries: =/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3
+
+Compiler stderr:
+ 

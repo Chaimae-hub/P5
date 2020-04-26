@@ -1,0 +1,8 @@
+[options]
+prefix = /Users/nira/PAV
+libdir = lib
+buildtype = release
+backend = ninja
+
+[properties]
+
