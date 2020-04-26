@@ -140,7 +140,7 @@ const vector<float> & Seno::synthesize() {
   
   fc=440*pow(2,(N-69)/12)
   
-  De este modo para cada nota asignamos la frecuencia que le corresponde para poder obtener el pitch correcto de cada nota. Es decir vamos avanzando en la tabla de la siguuiente manera: tblinc=tbl.size()/(SamplingRate/fc)
+  De este modo para cada nota asignamos la frecuencia que le corresponde para poder obtener el pitch correcto de cada nota. Es decir vamos avanzando en la tabla de la siguiente manera: tblinc=tbl.size()/(SamplingRate/fc)
   
   <img src="seno.PNG" width="340" align="center">
   
