@@ -36,7 +36,7 @@ permitan visualizar el funcionamiento de la curva ADSR.
     
     * El intérprete da por finalizada la nota antes de su completa extinción, iniciándose una disminución
 	  abrupta del sonido hasta su finalización.
-   <img src="ins22.PNG" width="640" align="center">
+   <img src="ins22.PNG" width="340" align="center">
    
   - Debera representar en esta memoria **ambos** posibles finales de la nota.
 * Un instrumento *plano*, como los de cuerdas frotadas (violines y semejantes) o algunos de viento. En
